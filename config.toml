@@ -1,0 +1,4 @@
+baseURL = "http://neu.schmeling-fachwerk.de/"
+languageCode = "de"
+title = "Schmeling Fachwerk"
+publishDir = "./public"
