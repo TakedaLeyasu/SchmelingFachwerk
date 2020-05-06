@@ -1,0 +1,9 @@
+{{- $pathURL := "/galerie" -}}
+{{- $path := "/static/galerie" -}}
+{{- $files := readDir $path -}}
+{{ range $files }}
+
+<amp-img lightbox src="{{ $pathURL }}{{ .Name | relURL }}" alt="{{ .Name }}" width="150px" height="100px">
+</amp-img>
+
+{{ end }}
